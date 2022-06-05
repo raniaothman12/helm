@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: 624792314775.dkr.ecr.us-west-2.amazonaws.com/traefikapache
+  repository: httpd
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest
@@ -49,7 +49,7 @@ ingress:
   hosts:
     - host: a7a741c9378374974ac8c7687d171e0e-b2953487da0f7ad3.elb.us-west-2.amazonaws.com
       paths:
-        - path: /apache
+        - path: /
           pathType: Prefix
   tls: []
   #  - secretName: chart-example-tls
