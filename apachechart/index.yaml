@@ -9,6 +9,6 @@ entries:
     name: apache
     type: application
     urls:
-    - https://github.com/raniaothman12/helm.git/apache-0.1.0.tgz
+    - https://github.com/raniaothman12/helm.git
     version: 0.1.0
 generated: "2022-06-05T18:57:42.518965+02:00"
