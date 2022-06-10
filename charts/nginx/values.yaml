@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: 624792314775.dkr.ecr.us-west-2.amazonaws.com/traefiknginx
+  repository: nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest
